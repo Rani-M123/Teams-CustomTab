@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.19.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.4.1"
+    },
+    "version": "1.16.1",
+    "libraryName": "custom-tab",
+    "libraryId": "1db06fc0-3d56-4d5e-aefb-7b8e6b643df5",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "custom-tab",
+    "solutionShortDescription": "custom-tab description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "custom-tab-client-side-solution",
+    "id": "1db06fc0-3d56-4d5e-aefb-7b8e6b643df5",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "custom-tab description"
+      },
+      "longDescription": {
+        "default": "custom-tab description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "custom-tab Feature",
+        "description": "The feature that activates elements of the custom-tab solution.",
+        "id": "d00bffc4-e7ae-40a5-a5a2-4f4c16ec9eb4",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/custom-tab.sppkg"
+  }
+}
